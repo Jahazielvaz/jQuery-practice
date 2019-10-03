@@ -18,3 +18,9 @@
 
       })
   NOTE: jQuery selectors are among the most important aspects of jQuery. This is how you select html elements based on CSS selectors. jQuery also has it's own custom selectors. All selectors are triggered with $()
+
+## Things Learned
+  * Section 1:
+    - How to target elements
+    - How to make elements hide and show.
+    - Click Events
