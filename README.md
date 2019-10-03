@@ -19,6 +19,14 @@
       })
   NOTE: jQuery selectors are among the most important aspects of jQuery. This is how you select html elements based on CSS selectors. jQuery also has it's own custom selectors. All selectors are triggered with $()
 
+## Selectors
+  - $("This is a star") : Selects all elements
+  - $(this) : Selects the current element
+  - $(".my-class") : Selects a class
+  - $("#my-id") : Selects an id
+  - $("p.my-class") : Selects all p tags with the class my-class
+
+
 ## Things Learned
   * Section 1:
     - How to target elements
