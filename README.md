@@ -25,6 +25,15 @@
   - $(".my-class") : Selects a class
   - $("#my-id") : Selects an id
   - $("p.my-class") : Selects all p tags with the class my-class
+  - $("p:first") : Selects the first p element
+  - $("ul li:first") : Selects the first li element from the first ul
+  - $("ul li:first-child")
+  - $("[href]")	Selects all elements with an href attribute
+  - $("a[target='_blank']")	Selects all <a> elements with a  target attribute value equal to "_blank"
+  - $("a[target!='_blank']")	Selects all <a> elements with a target attribute value NOT equal to "_blank"
+  - $(":button")	Selects all <button> elements and <input> elements of type="button"
+  - $("tr:even")	Selects all even <tr> elements
+  - $("tr:odd")	Selects all odd <tr> elements
 
 
 ## Things Learned
