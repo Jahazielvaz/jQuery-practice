@@ -29,11 +29,19 @@
   - $("ul li:first") : Selects the first li element from the first ul
   - $("ul li:first-child")
   - $("[href]")	Selects all elements with an href attribute
-  - $("a[target='_blank']")	Selects all <a> elements with a  target attribute value equal to "_blank"
+  *$("a[target='_blank']")	Selects all <a> elements with a  target attribute value equal to "_blank"
   - $("a[target!='_blank']")	Selects all <a> elements with a target attribute value NOT equal to "_blank"
   - $(":button")	Selects all <button> elements and <input> elements of type="button"
   - $("tr:even")	Selects all even <tr> elements
-  - $("tr:odd")	Selects all odd <tr> elements
+  - $("tr:odd")	Selects all odd <tr> elements*
+
+  NOTE: If you start having a lot of jQuery functions, it is useful to put them all in one big file, and then link it to your html page, as a script, the same way you would link a js file.
+    EXAMPLE: <script src="./myJQueryFile.js"></script>
+
+  NOTE: The $(this) feature doesn't seem to work on custom selectors such as classes, and ids. But it does work on standard selectors such as div, p, or section
+
+## Events
+
 
 
 ## Things Learned
