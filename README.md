@@ -40,7 +40,9 @@
 
   NOTE: The $(this) feature doesn't seem to work on custom selectors such as classes, and ids. But it does work on standard selectors such as div, p, or section
 
-  NOTE-SLIDE DOWN: Slide down doesn't work unless the object is originally set to display none, because the element is already displaying. 
+  NOTE-SLIDE DOWN: Slide down doesn't work unless the object is originally set to display none, because the element is already displaying.
+
+  NOTE-CALLBACKS: With normal js, there's a chance that while an effect is being executed, that the next lines of code will be executed. This can have your code run into problems. To prevent this, you can encapsulate your follow up code into a callback function. This function will not run until your effect executes
 
 ## Events
 

@@ -14,6 +14,11 @@ button{
   display: block;
 }
 
+.cancel-buttons{
+  background: red;
+  color: white;
+}
+
 #img1{
   background: url('https://1.bp.blogspot.com/-re5HqFKGZwk/Umy1ep7Fr8I/AAAAAAAACeQ/o22Qoim-QYs/s1600/Hackers+are+real+by+PCbots.png') center center no-repeat;
   height: 400px;
@@ -74,10 +79,11 @@ hr{
   top: inherit;
 }
 
-#box{
+.box{
   width: 300px;
   height: 300px;
   background: lightgreen;
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .3);
-  margin: auto;
+  margin: 20px auto;
+
 }

@@ -134,6 +134,17 @@ $("#box").click(() => {
   })
 })
 
+// Stop Animations
+$("#box-stop").click(() => {
+  $("#box").stop()
+  // Remember that there's also goToEnd : Which allows it to finish that iteration of the animation. And there's also stopAll which terminates all follow up animations, because it'll keep executing the rest by default
+})
 
+// Animate Using Predefined Values
+$("#box-button").click(() => {
+  $("#box2").animate({
+    height: "toggle"
+  }, 3000)
+})
 
 }) //End of jQuery
