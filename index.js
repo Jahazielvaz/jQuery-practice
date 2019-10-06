@@ -98,15 +98,32 @@ $("#slide-btn3").on("click", () => {
 })
 
 // IMAGE SLIDER
-let imgArr = Array.from(document.getElementsByClassName('imgs'))
-$("#image-switcher").click(() => {
-  let result = imgArr[0];
-  let shifter = imgArr.shift()
-  imgArr.push(shifter)
-  console.log(result)
-  // return result;
-})
+// let imgArr = Array.from(document.getElementsByClassName('imgs'))
+// $("#image-switcher").click(() => {
+//   let result = imgArr[0];
+//   let shifter = imgArr.shift()
+//   imgArr.push(shifter)
+//   console.log()
+// })
 
+// ANIMATE
+let arr = Array.from(document.getElementsByClassName('imgs'))
+
+$("#image-switcher").click(() => {
+  $(arr[1]).animate({
+    opacity: 0
+  }, 2000, () => {
+    let shift = arr.shift()
+    arr.push(shift)
+    console.log(arr)
+    $(arr[0]).animate({
+      opacity: 1
+    })
+
+  })
+}) // STILL CAN'T GET THE CAROUSEL. BUT WE'LL GET THERE
+
+// RELATIVE ANIMATIONS
 
 
 
