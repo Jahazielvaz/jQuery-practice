@@ -84,6 +84,19 @@ $("#fade-btn3").click(() => {
 })
 
 
+// SLIDE EVENTS
+$("#slide-btn1").click(() => {
+  $("#slide-text1").slideDown(2000)
+})
+
+$("#slide-btn2").click(() => {
+  $("#slide-text2").slideUp(3000);
+});
+
+$("#slide-btn3").on("click", () => {
+  $("#slide-text3").slideToggle(1000)
+})
+
 
 
 

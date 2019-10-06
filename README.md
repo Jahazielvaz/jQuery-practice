@@ -40,6 +40,8 @@
 
   NOTE: The $(this) feature doesn't seem to work on custom selectors such as classes, and ids. But it does work on standard selectors such as div, p, or section
 
+  NOTE-SLIDE DOWN: Slide down doesn't work unless the object is originally set to display none, because the element is already displaying. 
+
 ## Events
 
 

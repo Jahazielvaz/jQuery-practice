@@ -1,3 +1,7 @@
+body{
+  text-align: center;
+}
+
 button{
   width: 300px;
   height: 30px;
@@ -38,4 +42,18 @@ button{
   border: 1px solid blue;
   margin: auto;
   text-align: center;
+}
+
+hr{
+  margin: 15px;
+  height: 2px;
+  background: lightgreen;
+}
+
+#slide-methods > p{
+  border: 1px solid black;
+}
+
+#slide-text1{
+  display: none;
 }
