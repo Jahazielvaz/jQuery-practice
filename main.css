@@ -57,3 +57,19 @@ hr{
 #slide-text1{
   display: none;
 }
+
+
+.imgs{
+  position: absolute;
+  top: auto;
+  left: 400px;
+  margin: auto;
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+}
+
+#image-switcher{
+  position: relative;
+  top: inherit;
+}

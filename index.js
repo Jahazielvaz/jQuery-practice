@@ -97,6 +97,16 @@ $("#slide-btn3").on("click", () => {
   $("#slide-text3").slideToggle(1000)
 })
 
+// IMAGE SLIDER
+let imgArr = Array.from(document.getElementsByClassName('imgs'))
+$("#image-switcher").click(() => {
+  let result = imgArr[0];
+  let shifter = imgArr.shift()
+  imgArr.push(shifter)
+  console.log(result)
+  // return result;
+})
+
 
 
 
