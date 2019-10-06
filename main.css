@@ -1,6 +1,29 @@
+button{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background: rgba(0, 176, 120);
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+}
+
 #img1{
   background: url('https://1.bp.blogspot.com/-re5HqFKGZwk/Umy1ep7Fr8I/AAAAAAAACeQ/o22Qoim-QYs/s1600/Hackers+are+real+by+PCbots.png') center center no-repeat;
   height: 400px;
   width: 600px;
   background-size: cover;
+  margin: auto;
+}
+
+#click-events{
+  text-align: center;
+}
+
+#toggle-event{
+  text-align: center;
+}
+
+#btn2{
+  margin: auto;
 }
