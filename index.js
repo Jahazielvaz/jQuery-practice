@@ -124,7 +124,15 @@ $("#image-switcher").click(() => {
 }) // STILL CAN'T GET THE CAROUSEL. BUT WE'LL GET THERE
 
 // RELATIVE ANIMATIONS
-
+$("#box").click(() => {
+  $("#box").animate({
+    width: '+=100px'
+  }, 3000, () => {
+    $("#box").animate({
+      width: '-=100px'
+    }, 3000)
+  })
+})
 
 
 
