@@ -5,7 +5,9 @@ button{
   background: rgba(0, 176, 120);
   color: white;
   font-size: 25px;
-  margin: 10px;
+  margin: 10px auto;
+  text-align: center;
+  display: block;
 }
 
 #img1{
@@ -26,4 +28,14 @@ button{
 
 #btn2{
   margin: auto;
+}
+
+#fade-methods > *{
+  text-align: center;
+}
+
+.fade-button{
+  border: 1px solid blue;
+  margin: auto;
+  text-align: center;
 }

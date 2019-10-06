@@ -41,6 +41,7 @@ $('input').blur(() => {
 //   $('#img1').css('background', 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.s6-NuNcuDG-U1qnOev3fcgHaEK%26pid%3DApi&f=1)');
 // });
 
+// ON EVENT
 $('#btn1').on({
   mouseleave: () => {
     $('#img1').css('background', 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.s6-NuNcuDG-U1qnOev3fcgHaEK%26pid%3DApi&f=1) center center no-repeat', 3000)
@@ -52,10 +53,35 @@ $('#btn1').on({
   }
 })
 
+// TOGGLE EVENT
 $("#btn2").click(() => {
   $("#toggle-event > p").toggle(3000)
 })
 
+// FADE EVENTS
+
+// Fade In/Out
+$("#fade-btn1").on("click", () => {
+  $("#fade-text1").fadeOut(2000)
+},() =>{
+  if($("#fade-text1").css('display', 'none')){
+    $("#fade-text1").fadeIn(5000)
+  }
+}
+)
+
+// Fade Toggle
+$("#fade-btn2").click(() => {
+  $("#fade-text2").fadeToggle(3000)
+})
+
+// Fade To
+$("#fade-btn3").click(() => {
+  $("#fade-text3").fadeTo(2000, .5);
+  $("#fade-text3").fadeTo(2000, 0);
+  $("#fade-text3").fadeTo(2000, .5);
+  $("#fade-text3").fadeTo(2000, 1);
+})
 
 
 
