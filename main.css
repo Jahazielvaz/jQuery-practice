@@ -3,7 +3,7 @@ body{
 }
 
 button{
-  width: 300px;
+  width: 500px;
   height: 30px;
   border-radius: 10px;
   background: rgba(0, 176, 120);
@@ -86,4 +86,21 @@ hr{
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .3);
   margin: 20px auto;
 
+}
+
+
+
+/* GENERAL PRACTICE */
+#hidden-img{
+  display: none;
+}
+
+#key1{
+  border: 10px solid blue;
+  border-radius: 5px;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+  width: 30px;
+  color: blue;
 }

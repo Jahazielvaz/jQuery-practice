@@ -42,9 +42,22 @@
 
   NOTE-SLIDE DOWN: Slide down doesn't work unless the object is originally set to display none, because the element is already displaying.
 
-  NOTE-CALLBACKS: With normal js, there's a chance that while an effect is being executed, that the next lines of code will be executed. This can have your code run into problems. To prevent this, you can encapsulate your follow up code into a callback function. This function will not run until your effect executes
+  NOTE-CALLBACKS: With normal js, there's a chance that while an effect is being executed, that the next lines of code will be executed. This can have your code run into problems. To prevent this, you can encapsulate your follow up code into a callback function. This function will not run until your effect executesgit a
 
 ## Events
+* Hide
+* Show
+* Toggle : Toggles between hiding and showing content
+* All js standard events
+* Fade In: Your element has to initially have display: none. Once fade in is triggered, it'll display the element.
+* Fade Out: Your target element fades away and the css property ends up being display none.
+* Fade Toggle: Alternates between showing and hiding your element
+* Fade to: This one gives you the most control. You can manipulate the opacity, and create as many steps for it between 1 and 0.
+* Slide Down: Again, make sure that the target element's display is set to display none, so that it can show it.
+* Slide Up: This makes the target element go up and dissapear.
+* Slide Toggle: As you can probably guess. This method toggles between sliding up and sliding down.
+* Animate: Allows you to modify the css directly, as well as add a cb function if you want to give it further instructions on what to do after it executes your custom animation. You can also set default animations inside of your css. You can also use relative values as your css values. Stuff like the += or -= 
+
 
 
 

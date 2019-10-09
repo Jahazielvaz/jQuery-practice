@@ -147,4 +147,85 @@ $("#box-button").click(() => {
   }, 3000)
 })
 
+// Chaining
+$("#chain-btn1").click(() => {
+  $("#chain-target").hide(1000).show(1000).fadeTo(1000, .5).fadeTo(1000, 0).fadeTo(1000, .5).fadeTo(1000, 1);
+})
+
+// I THINK THIS IS ALL RELATED TO THE GET METHOD. I'LL RESEARCH MORE
+// Adding Inner HTML Text
+$("#inner-btn1").click(() => {
+  let secret = "I am SW. I'm here to make sure justice is served";
+  $("#secret-message").text(secret);
+})
+
+// Adding HTML Elements
+$("#adding-html-btn1").click(() => {
+  $("#phantom-list").html($("#lets"))
+})
+
+// Returning Value From A Form
+$("#value-btn1").click(() => {
+  $("#value-result").text($("#value-input").val());
+  console.log("The function fired");
+})
+
+// Getting the value of an html attribute such as an href, or any other tag
+$("#attr-btn1").click(() => {
+  $("#attr-result").text($("#attr-url").attr("href"));
+})
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////
+//  GENERAL PRACTICE ROUNDS
+
+// Setting html
+$("#stuff1-btn1").dblclick(() => {
+  if($("#hidden-img").css("display", "hidden")){
+    $("#hidden-img").css("display", "block")
+  }
+  $("#stuff1-img-container").html($("#hidden-img"));
+  console.log("Stuff 1 Event Has Been Fired")
+})
+
+$("body").on("keydown", (e) => {
+  if(e.keyCode == 70){
+    $("#stuff1-img-container2").html("<img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F07%2FSpace-PNG-Clipart.png&f=1&nofb=1'></img>");
+    $("#key1").css({
+      border: '12px solid lightblue',
+      color: 'lightblue'
+    }, 500)
+
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }) //End of jQuery
